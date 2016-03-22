@@ -1,0 +1,1159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>newitem</class>
+ <widget class="QDialog" name="newitem">
+  <property name="windowModality">
+   <enum>Qt::ApplicationModal</enum>
+  </property>
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>454</width>
+    <height>332</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="modal">
+   <bool>true</bool>
+  </property>
+  <widget class="QDoubleSpinBox" name="doubleSpinBox">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>160</y>
+     <width>62</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="decimals">
+    <number>4</number>
+   </property>
+   <property name="minimum">
+    <double>-5000.000000000000000</double>
+   </property>
+   <property name="maximum">
+    <double>50000.000000000000000</double>
+   </property>
+   <property name="singleStep">
+    <double>0.000100000000000</double>
+   </property>
+  </widget>
+  <widget class="QDoubleSpinBox" name="doubleSpinBox_2">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>160</y>
+     <width>62</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="decimals">
+    <number>4</number>
+   </property>
+   <property name="maximum">
+    <double>50000.000000000000000</double>
+   </property>
+   <property name="singleStep">
+    <double>0.000100000000000</double>
+   </property>
+  </widget>
+  <widget class="QDoubleSpinBox" name="doubleSpinBox_3">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>160</y>
+     <width>62</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="decimals">
+    <number>4</number>
+   </property>
+   <property name="maximum">
+    <double>50000.000000000000000</double>
+   </property>
+   <property name="singleStep">
+    <double>0.000100000000000</double>
+   </property>
+  </widget>
+  <widget class="QDoubleSpinBox" name="doubleSpinBox_4">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>160</y>
+     <width>62</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="decimals">
+    <number>4</number>
+   </property>
+   <property name="maximum">
+    <double>50000.000000000000000</double>
+   </property>
+   <property name="singleStep">
+    <double>0.000100000000000</double>
+   </property>
+  </widget>
+  <widget class="QDoubleSpinBox" name="doubleSpinBox_5">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>160</y>
+     <width>62</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="decimals">
+    <number>4</number>
+   </property>
+   <property name="maximum">
+    <double>50000.000000000000000</double>
+   </property>
+   <property name="singleStep">
+    <double>0.000100000000000</double>
+   </property>
+  </widget>
+  <widget class="QDoubleSpinBox" name="doubleSpinBox_6">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>160</y>
+     <width>62</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="decimals">
+    <number>4</number>
+   </property>
+   <property name="maximum">
+    <double>50000.000000000000000</double>
+   </property>
+   <property name="singleStep">
+    <double>0.000100000000000</double>
+   </property>
+  </widget>
+  <widget class="QDoubleSpinBox" name="doubleSpinBox_7">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>180</y>
+     <width>62</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="decimals">
+    <number>4</number>
+   </property>
+   <property name="maximum">
+    <double>50000.000000000000000</double>
+   </property>
+   <property name="singleStep">
+    <double>0.000100000000000</double>
+   </property>
+  </widget>
+  <widget class="QDoubleSpinBox" name="doubleSpinBox_8">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>180</y>
+     <width>62</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="decimals">
+    <number>4</number>
+   </property>
+   <property name="maximum">
+    <double>50000.000000000000000</double>
+   </property>
+   <property name="singleStep">
+    <double>0.000100000000000</double>
+   </property>
+  </widget>
+  <widget class="QDoubleSpinBox" name="doubleSpinBox_9">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>180</y>
+     <width>62</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="decimals">
+    <number>4</number>
+   </property>
+   <property name="maximum">
+    <double>50000.000000000000000</double>
+   </property>
+   <property name="singleStep">
+    <double>0.000100000000000</double>
+   </property>
+  </widget>
+  <widget class="QDoubleSpinBox" name="doubleSpinBox_10">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>180</y>
+     <width>62</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="decimals">
+    <number>4</number>
+   </property>
+   <property name="maximum">
+    <double>50000.000000000000000</double>
+   </property>
+   <property name="singleStep">
+    <double>0.000100000000000</double>
+   </property>
+  </widget>
+  <widget class="QDoubleSpinBox" name="doubleSpinBox_11">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>180</y>
+     <width>62</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="decimals">
+    <number>4</number>
+   </property>
+   <property name="maximum">
+    <double>50000.000000000000000</double>
+   </property>
+   <property name="singleStep">
+    <double>0.000100000000000</double>
+   </property>
+  </widget>
+  <widget class="QDoubleSpinBox" name="doubleSpinBox_12">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>200</y>
+     <width>62</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="decimals">
+    <number>4</number>
+   </property>
+   <property name="maximum">
+    <double>50000.000000000000000</double>
+   </property>
+   <property name="singleStep">
+    <double>0.000100000000000</double>
+   </property>
+  </widget>
+  <widget class="QDoubleSpinBox" name="doubleSpinBox_13">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>200</y>
+     <width>62</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="decimals">
+    <number>4</number>
+   </property>
+   <property name="maximum">
+    <double>50000.000000000000000</double>
+   </property>
+   <property name="singleStep">
+    <double>0.000100000000000</double>
+   </property>
+  </widget>
+  <widget class="QDoubleSpinBox" name="doubleSpinBox_14">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>200</y>
+     <width>62</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="decimals">
+    <number>4</number>
+   </property>
+   <property name="maximum">
+    <double>50000.000000000000000</double>
+   </property>
+   <property name="singleStep">
+    <double>0.000100000000000</double>
+   </property>
+  </widget>
+  <widget class="QDoubleSpinBox" name="doubleSpinBox_15">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>200</y>
+     <width>62</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="decimals">
+    <number>4</number>
+   </property>
+   <property name="maximum">
+    <double>50000.000000000000000</double>
+   </property>
+   <property name="singleStep">
+    <double>0.000100000000000</double>
+   </property>
+  </widget>
+  <widget class="QDoubleSpinBox" name="doubleSpinBox_16">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>220</y>
+     <width>62</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="decimals">
+    <number>4</number>
+   </property>
+   <property name="maximum">
+    <double>50000.000000000000000</double>
+   </property>
+   <property name="singleStep">
+    <double>0.000100000000000</double>
+   </property>
+  </widget>
+  <widget class="QDoubleSpinBox" name="doubleSpinBox_17">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>220</y>
+     <width>62</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="decimals">
+    <number>4</number>
+   </property>
+   <property name="maximum">
+    <double>50000.000000000000000</double>
+   </property>
+   <property name="singleStep">
+    <double>0.000100000000000</double>
+   </property>
+  </widget>
+  <widget class="QDoubleSpinBox" name="doubleSpinBox_18">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>220</y>
+     <width>62</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="decimals">
+    <number>4</number>
+   </property>
+   <property name="maximum">
+    <double>50000.000000000000000</double>
+   </property>
+   <property name="singleStep">
+    <double>0.000100000000000</double>
+   </property>
+  </widget>
+  <widget class="QDoubleSpinBox" name="doubleSpinBox_19">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>240</y>
+     <width>62</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="decimals">
+    <number>4</number>
+   </property>
+   <property name="maximum">
+    <double>50000.000000000000000</double>
+   </property>
+   <property name="singleStep">
+    <double>0.000100000000000</double>
+   </property>
+  </widget>
+  <widget class="QDoubleSpinBox" name="doubleSpinBox_20">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>240</y>
+     <width>62</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="decimals">
+    <number>4</number>
+   </property>
+   <property name="maximum">
+    <double>50000.000000000000000</double>
+   </property>
+   <property name="singleStep">
+    <double>0.000100000000000</double>
+   </property>
+  </widget>
+  <widget class="QDoubleSpinBox" name="doubleSpinBox_21">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>260</y>
+     <width>62</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="decimals">
+    <number>4</number>
+   </property>
+   <property name="maximum">
+    <double>50000.000000000000000</double>
+   </property>
+   <property name="singleStep">
+    <double>0.000100000000000</double>
+   </property>
+  </widget>
+  <widget class="QDoubleSpinBox" name="doubleSpinBox_22">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>180</y>
+     <width>62</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="decimals">
+    <number>4</number>
+   </property>
+   <property name="maximum">
+    <double>50000.000000000000000</double>
+   </property>
+   <property name="singleStep">
+    <double>0.000100000000000</double>
+   </property>
+  </widget>
+  <widget class="QDoubleSpinBox" name="doubleSpinBox_23">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>200</y>
+     <width>62</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="decimals">
+    <number>4</number>
+   </property>
+   <property name="maximum">
+    <double>50000.000000000000000</double>
+   </property>
+   <property name="singleStep">
+    <double>0.000100000000000</double>
+   </property>
+  </widget>
+  <widget class="QDoubleSpinBox" name="doubleSpinBox_24">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>220</y>
+     <width>62</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="decimals">
+    <number>4</number>
+   </property>
+   <property name="maximum">
+    <double>50000.000000000000000</double>
+   </property>
+   <property name="singleStep">
+    <double>0.000100000000000</double>
+   </property>
+  </widget>
+  <widget class="QDoubleSpinBox" name="doubleSpinBox_25">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>240</y>
+     <width>62</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="decimals">
+    <number>4</number>
+   </property>
+   <property name="maximum">
+    <double>50000.000000000000000</double>
+   </property>
+   <property name="singleStep">
+    <double>0.000100000000000</double>
+   </property>
+  </widget>
+  <widget class="QDoubleSpinBox" name="doubleSpinBox_26">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>260</y>
+     <width>62</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="decimals">
+    <number>4</number>
+   </property>
+   <property name="maximum">
+    <double>50000.000000000000000</double>
+   </property>
+   <property name="singleStep">
+    <double>0.000100000000000</double>
+   </property>
+  </widget>
+  <widget class="QDoubleSpinBox" name="doubleSpinBox_27">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>200</y>
+     <width>62</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="decimals">
+    <number>4</number>
+   </property>
+   <property name="maximum">
+    <double>50000.000000000000000</double>
+   </property>
+   <property name="singleStep">
+    <double>0.000100000000000</double>
+   </property>
+  </widget>
+  <widget class="QDoubleSpinBox" name="doubleSpinBox_28">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>220</y>
+     <width>62</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="decimals">
+    <number>4</number>
+   </property>
+   <property name="maximum">
+    <double>50000.000000000000000</double>
+   </property>
+   <property name="singleStep">
+    <double>0.000100000000000</double>
+   </property>
+  </widget>
+  <widget class="QDoubleSpinBox" name="doubleSpinBox_29">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>240</y>
+     <width>62</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="decimals">
+    <number>4</number>
+   </property>
+   <property name="maximum">
+    <double>50000.000000000000000</double>
+   </property>
+   <property name="singleStep">
+    <double>0.000100000000000</double>
+   </property>
+  </widget>
+  <widget class="QDoubleSpinBox" name="doubleSpinBox_30">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>260</y>
+     <width>62</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="decimals">
+    <number>4</number>
+   </property>
+   <property name="maximum">
+    <double>50000.000000000000000</double>
+   </property>
+   <property name="singleStep">
+    <double>0.000100000000000</double>
+   </property>
+  </widget>
+  <widget class="QDoubleSpinBox" name="doubleSpinBox_31">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>220</y>
+     <width>62</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="decimals">
+    <number>4</number>
+   </property>
+   <property name="maximum">
+    <double>50000.000000000000000</double>
+   </property>
+   <property name="singleStep">
+    <double>0.000100000000000</double>
+   </property>
+  </widget>
+  <widget class="QDoubleSpinBox" name="doubleSpinBox_32">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>240</y>
+     <width>62</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="decimals">
+    <number>4</number>
+   </property>
+   <property name="maximum">
+    <double>50000.000000000000000</double>
+   </property>
+   <property name="singleStep">
+    <double>0.000100000000000</double>
+   </property>
+  </widget>
+  <widget class="QDoubleSpinBox" name="doubleSpinBox_33">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>260</y>
+     <width>62</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="decimals">
+    <number>4</number>
+   </property>
+   <property name="maximum">
+    <double>50000.000000000000000</double>
+   </property>
+   <property name="singleStep">
+    <double>0.000100000000000</double>
+   </property>
+  </widget>
+  <widget class="QDoubleSpinBox" name="doubleSpinBox_34">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>240</y>
+     <width>62</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="decimals">
+    <number>4</number>
+   </property>
+   <property name="maximum">
+    <double>50000.000000000000000</double>
+   </property>
+   <property name="singleStep">
+    <double>0.000100000000000</double>
+   </property>
+  </widget>
+  <widget class="QDoubleSpinBox" name="doubleSpinBox_35">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>260</y>
+     <width>62</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="decimals">
+    <number>4</number>
+   </property>
+   <property name="maximum">
+    <double>50000.000000000000000</double>
+   </property>
+   <property name="singleStep">
+    <double>0.000100000000000</double>
+   </property>
+  </widget>
+  <widget class="QDoubleSpinBox" name="doubleSpinBox_36">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>260</y>
+     <width>62</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="decimals">
+    <number>4</number>
+   </property>
+   <property name="maximum">
+    <double>50000.000000000000000</double>
+   </property>
+   <property name="singleStep">
+    <double>0.000100000000000</double>
+   </property>
+  </widget>
+  <widget class="QDoubleSpinBox" name="doubleSpinBox_37">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>90</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="decimals">
+    <number>5</number>
+   </property>
+   <property name="maximum">
+    <double>50000.000000000000000</double>
+   </property>
+   <property name="singleStep">
+    <double>0.000010000000000</double>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>90</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Density [kg/m3]</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>50</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Substance name</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>50</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>130</y>
+     <width>211</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Elastic stiffness tensor [GPa]</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>10</y>
+     <width>211</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Add New Substance</string>
+   </property>
+  </widget>
+  <widget class="QDialogButtonBox" name="buttonBox">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>290</y>
+     <width>152</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="standardButtons">
+    <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>accepted()</signal>
+   <receiver>newitem</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>294</x>
+     <y>306</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>374</x>
+     <y>106</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>rejected()</signal>
+   <receiver>newitem</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>350</x>
+     <y>305</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>418</x>
+     <y>138</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>doubleSpinBox_3</sender>
+   <signal>valueChanged(double)</signal>
+   <receiver>doubleSpinBox_23</receiver>
+   <slot>setValue(double)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>196</x>
+     <y>171</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>81</x>
+     <y>213</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>doubleSpinBox_2</sender>
+   <signal>valueChanged(double)</signal>
+   <receiver>doubleSpinBox_22</receiver>
+   <slot>setValue(double)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>127</x>
+     <y>171</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>75</x>
+     <y>190</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>doubleSpinBox_8</sender>
+   <signal>valueChanged(double)</signal>
+   <receiver>doubleSpinBox_27</receiver>
+   <slot>setValue(double)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>205</x>
+     <y>196</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>148</x>
+     <y>218</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>doubleSpinBox_4</sender>
+   <signal>valueChanged(double)</signal>
+   <receiver>doubleSpinBox_24</receiver>
+   <slot>setValue(double)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>238</x>
+     <y>172</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>74</x>
+     <y>230</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>doubleSpinBox_9</sender>
+   <signal>valueChanged(double)</signal>
+   <receiver>doubleSpinBox_28</receiver>
+   <slot>setValue(double)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>253</x>
+     <y>194</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>139</x>
+     <y>235</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>doubleSpinBox_13</sender>
+   <signal>valueChanged(double)</signal>
+   <receiver>doubleSpinBox_31</receiver>
+   <slot>setValue(double)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>262</x>
+     <y>210</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>199</x>
+     <y>235</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>doubleSpinBox_5</sender>
+   <signal>valueChanged(double)</signal>
+   <receiver>doubleSpinBox_25</receiver>
+   <slot>setValue(double)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>317</x>
+     <y>176</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>83</x>
+     <y>250</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>doubleSpinBox_10</sender>
+   <signal>valueChanged(double)</signal>
+   <receiver>doubleSpinBox_29</receiver>
+   <slot>setValue(double)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>324</x>
+     <y>196</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>143</x>
+     <y>254</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>doubleSpinBox_14</sender>
+   <signal>valueChanged(double)</signal>
+   <receiver>doubleSpinBox_32</receiver>
+   <slot>setValue(double)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>327</x>
+     <y>216</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>196</x>
+     <y>255</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>doubleSpinBox_17</sender>
+   <signal>valueChanged(double)</signal>
+   <receiver>doubleSpinBox_34</receiver>
+   <slot>setValue(double)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>332</x>
+     <y>234</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>262</x>
+     <y>251</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>doubleSpinBox_6</sender>
+   <signal>valueChanged(double)</signal>
+   <receiver>doubleSpinBox_26</receiver>
+   <slot>setValue(double)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>375</x>
+     <y>174</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>85</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>doubleSpinBox_11</sender>
+   <signal>valueChanged(double)</signal>
+   <receiver>doubleSpinBox_30</receiver>
+   <slot>setValue(double)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>385</x>
+     <y>196</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>145</x>
+     <y>271</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>doubleSpinBox_15</sender>
+   <signal>valueChanged(double)</signal>
+   <receiver>doubleSpinBox_33</receiver>
+   <slot>setValue(double)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>384</x>
+     <y>214</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>207</x>
+     <y>272</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>doubleSpinBox_18</sender>
+   <signal>valueChanged(double)</signal>
+   <receiver>doubleSpinBox_35</receiver>
+   <slot>setValue(double)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>386</x>
+     <y>234</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>258</x>
+     <y>276</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>doubleSpinBox_20</sender>
+   <signal>valueChanged(double)</signal>
+   <receiver>doubleSpinBox_36</receiver>
+   <slot>setValue(double)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>386</x>
+     <y>252</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>324</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>AddSubstance()</slot>
+  <slot>vchanged()</slot>
+ </slots>
+</ui>
